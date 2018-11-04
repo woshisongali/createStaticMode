@@ -1,0 +1,215 @@
+$deepBlack = #353944
+$deepBlack2 = #2b2c30
+$gray = #999
+$lightsty1 = #F9FCFD
+$lightsty2 = #e5e5e5
+$orange = #ff9008
+$orange2 = #F7A52C
+$fontF1 = 'Microsoft Yahei'
+*{
+  padding 0px
+  margin 0px
+}
+em{
+  font-style: normal
+}
+.gray {
+  color $gray
+}
+.whitef {
+  color #fff
+}
+.deepf {
+  color $deepBlack
+}
+.deepbg {
+  background: $deepBlack2
+}
+.txtcenter{
+  text-align: center
+}
+.bg-lightsty1{
+  background: $lightsty1
+}
+.bigbg-orange{
+  background: $orange2 url('./icons/bg/floorBgOrange.jpg') no-repeat
+}
+.mfont {
+  line-height 36px
+  font-size 16px
+}
+.txtcenter {
+  text-align: center
+}
+.line-gsp {
+  display inline-block
+  background: $lightsty2
+  width 75px
+  height 3px
+  margin 20px 0 26px 0
+}
+body{
+  font:  Tahoma, Arial, "\5b8b\4f53", sans-serif;
+}
+a{
+  cursor pointer
+}
+ul {
+  list-style none
+}
+div {
+  word-break break-word
+  word-wrap break-word
+}
+.btn-orgbd{
+  padding 2px 10px
+  margin-right 3px
+  border 1px solid $orange
+  border-radius: 15px
+  font-size 14px
+  color $orange
+  &:hover{
+    background $orange
+    color #fff
+  }
+}
+.btn-orgbg{
+  padding 2px 6px
+  background $orange
+  border 1px solid $orange
+  border-radius: 15px
+  font-size 14px
+  color #2e303d
+  &:hover{
+    background $orange
+  }
+}
+.comp-logo{
+    display block
+    width 150px
+    height 52px
+    background url('./icons/logo.png') no-repeat
+}
+.icon1{
+  background: url('./icons/icon1.png') no-repeat
+}
+.icon1_num{
+    width: 20px
+    height 20px
+    display: inline-block
+    margin-top: 8px
+    margin-right: 10px
+    vertical-align: top
+    background-position: 0 -80px
+    line-height 20px
+    color: $orange
+    text-align center
+}
+.m-btm45 {
+  margin-bottom 45px
+}
+.p-tp100 {
+  padding-top 100px
+}
+.p-bt100 {
+  padding-bottom: 100px
+}
+.mg-l-styl1{
+  margin-left: 550px
+}
+
+// 清除浮动
+.clearfix:after{
+  content: "020"; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;  
+  }
+
+.clearfix {
+  /* 触发 hasLayout */ 
+  zoom: 1; 
+  }
+.left-f{
+  float left
+}
+.right-f{
+  float right
+}
+.w1200{
+  width: 1200px
+  margin: auto
+}
+.w450{
+  width 450px
+}
+.subTit2{
+  font 36px/38px 'Microsoft Yahei'
+  padding-top 60px
+}
+.inline-b {
+  display inline-block
+}
+.base-mode-panel {
+  a{
+    text-decoration: none
+  }
+}
+.panel-item4{
+  .described {
+    margin 18px 0 36px 0
+  }
+}
+.panel-item6{
+  position relative
+  height: 620px
+  .absolute-img{
+    position absolute
+    bottom -5px
+    right 50%
+  }
+}
+.img-list-static {
+  padding-bottom 30px
+  .subTit2{
+    padding-top 90px
+  }
+  .main-list{
+    text-align: center
+    margin auto
+    margin-top 20px
+    width 1120px
+    li {
+      // display: inline-block
+      float left
+      // width 140px
+      width 12.5%
+      height 170px
+      // border 1px solid red
+      span {
+        display: block
+        font-family: $fontF1
+        margin-top 5px
+        font-size: 16px
+        color: #fff
+      }
+    }
+    img {
+      width: 110px
+      height: 110px
+      border-radius: 20px
+      overflow hidden
+    }
+  }
+}
+.list-slide-panel{
+  width 100%
+  overflow hidden
+  .list-slide-box {
+    width 2000%
+  }
+  .list-group{
+    float left
+  }
+}
