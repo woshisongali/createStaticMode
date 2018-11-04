@@ -6,7 +6,8 @@ function initSwiper (opt) {
     loop:true,
     grabCursor: true,
     paginationClickable: true,
-    autoplay: opt.autoplay || 0
+    autoplay: opt.autoplay || 0,
+    autoplayDisableOnInteraction: false
   })
   $('.swiper-device .arrow-left').on('click', function(e){
     e.preventDefault()
