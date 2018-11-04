@@ -1,4 +1,8 @@
 
+# node版本
+node 8.0版本
+uglifyjs-webpack-plugin要求 node版本大于8.9
+
 模板引入问题: 
 刚开始在webpack.config.js中配置了 html-loader相关配置， 结果在使用了webpack-html-plugin后无法正确解析对应的模板。
 解决方案删除webpack.config.js关于html-loader， 直接通过requie引入
