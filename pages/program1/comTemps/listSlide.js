@@ -6,7 +6,7 @@ class ListSlide {
     this.addCopy()
     this.bindMarquee()
     this.timer = null
-    // this.moving()
+    this.moving()
     this.bind()
     // this.Marquee()
   }
