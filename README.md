@@ -1,0 +1,2 @@
+# createStaticMode
+static html, js 
