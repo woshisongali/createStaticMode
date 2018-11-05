@@ -49,6 +49,8 @@
   },
   "dependencies": {
     "d3": "^5.1.0",
+    "echo-js": "^1.7.3",
+    "lazyload": "^2.0.0-beta.2",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "uglifyjs-webpack-plugin": "^2.0.1"
   }
